@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Cell.cpp
+Cell.h
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Cell.h
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Cell.h
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/ExpandedTemplates.h
+Cell.cpp
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Cell.cpp
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Main.cpp
+cstdlib
+-
+iostream
+-
+ExpandedTemplates.h
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/ExpandedTemplates.h
+MemoryCell.h
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.h
+SimpleMemoryCell.h
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/SimpleMemoryCell.h
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.cpp
+MemoryCell.h
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.h
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.h
+MemoryCell.cpp
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.cpp
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/SimpleMemoryCell.h
+
