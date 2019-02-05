@@ -8,10 +8,9 @@
  * @brief   Entry point for lab02Demo target.
  *          This is a playground for you to experiment with the Cell, SimpleCell, and MemoryCell classes.
  * @authors Jim Daehn <jdaehn@missouristate.edu>
- * TODO:    Your Name <your-username@live.missouristate.edu>
+ *          Dalton McCart <dmm42@live.missouristate.edu>
  */
 
-#include <cstdlib>
 #include <iostream>
 #include "ExpandedTemplates.h"
 #include "MemoryCell.h"
