@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Demo.cpp
+cstdlib
+-
+iostream
+-
+MemoryCell.h
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.h
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.cpp
+MemoryCell.h
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.h
+
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.h
+MemoryCell.cpp
+/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.cpp
+

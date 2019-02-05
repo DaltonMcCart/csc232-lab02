@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab02"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02Demo">
+				<Option output="/Users/jdaehn/repos/lab02-compiling-template-classes/out/lab02Demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jdaehn/repos/lab02-compiling-template-classes/out"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/hw01Test"/>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/PUBLIC"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02Demo"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02Demo/fast">
+				<Option output="/Users/jdaehn/repos/lab02-compiling-template-classes/out/lab02Demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jdaehn/repos/lab02-compiling-template-classes/out"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/hw01Test"/>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/PUBLIC"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02Demo/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02Test">
+				<Option output="/Users/jdaehn/repos/lab02-compiling-template-classes/out/lab02Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jdaehn/repos/lab02-compiling-template-classes/out"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/hw01Test"/>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/PUBLIC"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02Test"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02Test/fast">
+				<Option output="/Users/jdaehn/repos/lab02-compiling-template-classes/out/lab02Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jdaehn/repos/lab02-compiling-template-classes/out"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/hw01Test"/>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/PUBLIC"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02Test/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02">
+				<Option output="/Users/jdaehn/repos/lab02-compiling-template-classes/out/lab02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jdaehn/repos/lab02-compiling-template-classes/out"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/hw01Test"/>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/PUBLIC"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02/fast">
+				<Option output="/Users/jdaehn/repos/lab02-compiling-template-classes/out/lab02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jdaehn/repos/lab02-compiling-template-classes/out"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/hw01Test"/>
+					<Add directory="/Users/jdaehn/repos/lab02-compiling-template-classes/PUBLIC"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/jdaehn/repos/lab02-compiling-template-classes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Cell.cpp">
+			<Option target="lab02Demo"/>
+			<Option target="lab02Test"/>
+			<Option target="lab02"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Cell.h">
+			<Option target="lab02Demo"/>
+			<Option target="lab02Test"/>
+			<Option target="lab02"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Demo.cpp">
+			<Option target="lab02Demo"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/ExpandedTemplates.h">
+			<Option target="lab02Demo"/>
+			<Option target="lab02Test"/>
+			<Option target="lab02"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/Main.cpp">
+			<Option target="lab02"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/MemoryCell.h">
+			<Option target="lab02Demo"/>
+			<Option target="lab02Test"/>
+			<Option target="lab02"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/main/cpp/SimpleMemoryCell.h">
+			<Option target="lab02Demo"/>
+			<Option target="lab02Test"/>
+			<Option target="lab02"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/test/cpp/MemoryCellUnitTest.cpp">
+			<Option target="lab02Test"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/test/cpp/MemoryCellUnitTest.h">
+			<Option target="lab02Test"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/src/test/cpp/UnitTestRunner.cpp">
+			<Option target="lab02Test"/>
+		</Unit>
+		<Unit filename="/Users/jdaehn/repos/lab02-compiling-template-classes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
