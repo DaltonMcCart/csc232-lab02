@@ -30,3 +30,18 @@
 *.exe
 *.out
 *.app
+
+# CLion
+.idea/**
+cmake-build-debug/**
+
+# Visual Studio Code
+build/**
+.vscode/**
+
+# Project-specific
+out/**
+generator/CMakeFiles/**
+generator/cmake_install.cmake
+generator/CMakeCache.txt
+generator/Makefile
